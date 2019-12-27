@@ -5,9 +5,9 @@ $('#sizePicker').submit(function makeGrid(grid) {
   $("table tr").remove()
   var cols = $("#inputWidth").val();
   var rows = $("#inputHeight").val();
-    for (var i = 0; i <= rows; i++) {
+    for (var i = 0; i < rows; i++) {
       $("table").append("<tr></tr");
-      for (var j = 0; j <= cols; j++) {
+      for (var j = 0; j < cols; j++) {
         $("tr:last").append("<td></td");
         $("td").attr("class", "cells");
       }
