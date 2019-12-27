@@ -15,7 +15,7 @@ $('#sizePicker').submit(function makeGrid(grid) {
     grid.preventDefault();
     $(".cells").click(function(event) {
       var paint = $('#colorPicker').val();
-      $(event.target).css("background-color" , paint");
+      $(event.target).css("background-color" , paint);
     });
 
   });
